@@ -113,6 +113,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+Relational is in reference to a theory in mathematics. Relational DBs essentially let us use information on one data point to find relevant data points within the database, whether they lie within the same table or whether they lie within other tables via foreign keys. 
+
+SQL (SEQUEL) is used to do a hell of  a lot of things - manipulate data, insert, read, query, etc etc. SQL is a powerful standard language, both concise and declarative by nature.
+
 2. Why do tables need a Primary Key?
+So we can quickly identify information by its unique identifier.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+Foreign Key.
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+A "relational table," "junction table," JOINing table, etc. A table which can help navigate the relationship between the keys effectively.
